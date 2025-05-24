@@ -1,19 +1,26 @@
 @import url("https://cdn.jsdelivr.net/gh/Nyannnnnng/GyeonggiTitleWoff/stylesheet.css");
 
 body {
-    font-family: "GyeonggiTitle", sans-serif;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    width: 100vw;
-    height: 100vh;
+  font-family: "GyeonggiTitle", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100vw;
+  height: 100vh;
+  
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
-.logo p{
+.logo img {
+  width: 300px;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+
+/* .logo p{
     font-size: 25px;
     color: goldenrod;
 }
@@ -21,10 +28,10 @@ header {
 .logo {
     padding: 20px;
     font-size: 30px;
-}
+} */
 
 main {
-  margin-top: -70px;
+  margin-top: -150px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -42,6 +49,16 @@ main {
   gap: 20px;
 }
 
+.betman ul {
+  flex-direction: column;
+  align-items: center;
+}
+
+.betman ul div {
+  display: flex;
+  gap: 10px;
+}
+
 .web-page ul,
 .betman ul,
 .toto ul{
@@ -53,6 +70,7 @@ main {
 .betman ul li,
 .toto ul li{
   border: solid 1px #ccc;
+  border-radius: 10px;
   width: 200px;
 }
 
@@ -67,10 +85,16 @@ h2, h2 > a {
   font-size: 20px;
 }
 
-.web-page ul li:hover a,
-.betman ul li:hover a,
-.toto ul li:hover a{
-  display: none;
+.web-page ul li a:hover,
+.betman-link:hover{
+  color: rgba(0, 0, 0, 0);
+}
+
+.betman ul li a:hover,
+.toto ul li a:hover {
+  color: goldenrod;
+  /* background-color: rgba(255, 181, 96, 0.768); */
+  font-size: 25px;
 }
 
 .naver:hover{
@@ -87,9 +111,20 @@ h2, h2 > a {
   background-repeat: no-repeat;
 }
 
+.betman-link {
+  padding: 20px 50px;
+}
+
+.betman-link:hover {
+  background-image: url(../image/betman.png);
+  background-size: 150px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .lotto:hover {
-  background-image: url(../image/lotto.jpg);
-  background-size: auto;
-  background-position: 55% center;
+  background-image: url(../image/lotto.png);
+  background-size: 200px auto;
+  background-position: 60% center;
   background-repeat: no-repeat;
 }
