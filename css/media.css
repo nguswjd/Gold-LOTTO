@@ -30,11 +30,16 @@
   }
 }
 
-/* @media (max-width: 390px) {
+@media (max-width: 900px) {
+  .web-page ul,
+  .betman ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-  .web-page {
-    flex-direction: row;
-    gap: 0;
+  .toto ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .web-page,
@@ -42,7 +47,13 @@
   .betman {
     gap: 10px;
   }
+}
 
 
-
-} */
+@media (max-width: 600px) {
+  .web-page ul,
+  .betman ul,
+  .toto ul {
+    display: grid;
+  }
+}
