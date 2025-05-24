@@ -67,11 +67,29 @@ h2, h2 > a {
   font-size: 20px;
 }
 
-.web-page ul li a:hover,
-.betman ul li a:hover,
-.toto ul li a:hover {
-  background-color: #ccc;
-  color: #fff;
+.web-page ul li:hover a,
+.betman ul li:hover a,
+.toto ul li:hover a{
+  display: none;
 }
 
+.naver:hover{
+  background-image: url(../image/naver.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.daum:hover {
+  background-image: url(../image/daum.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lotto:hover {
+  background-image: url(../image/lotto.jpg);
+  background-size: auto;
+  background-position: 55% center;
+  background-repeat: no-repeat;
+}
