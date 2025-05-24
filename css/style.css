@@ -4,9 +4,7 @@ body {
   font-family: "GyeonggiTitle", sans-serif;
   display: flex;
   flex-direction: column;
-  /* gap: 30px; */
   width: 100vw;
-  height: 100vh;
 }
 
 header {
