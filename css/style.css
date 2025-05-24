@@ -21,6 +21,7 @@ header {
 } */
 
 main {
+  margin-top: -100px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -42,6 +43,10 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+.betman h2 {
+  margin-bottom: 10px;
 }
 
 .web-page ul,
@@ -77,8 +82,9 @@ h2, h2 > a {
 
 .betman ul li a:hover,
 .toto ul li a:hover {
-  color: goldenrod;
-  /* background-color: rgba(255, 181, 96, 0.768); */
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.768);
+  border-radius: 10px;
   font-size: 25px;
 }
 
