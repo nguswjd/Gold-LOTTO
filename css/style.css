@@ -31,20 +31,16 @@ main {
 }
 
 .web-page,
-.betman,
 .toto {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.betman ul {
+.betman {
+  display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.betman ul div {
-  display: flex;
   gap: 10px;
 }
 
